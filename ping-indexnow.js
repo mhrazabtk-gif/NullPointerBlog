@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'null-pointer-blog.pages.dev';
+const HOST = 'null-pointer-blog.pageaura.xyz';
 const KEY = '60e29b99ddfe40e49a49c4603451c1b4';
-const KEY_LOCATION = `https://null-pointer-blog.pages.dev/60e29b99ddfe40e49a49c4603451c1b4.txt`;
+const KEY_LOCATION = `https://null-pointer-blog.pageaura.xyz/60e29b99ddfe40e49a49c4603451c1b4.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
