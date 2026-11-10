@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://null-pointer-blog.pages.dev';
+const DOMAIN = 'https://null-pointer-blog.pageaura.xyz';
 const KEY = '60e29b99ddfe40e49a49c4603451c1b4';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'null-pointer-blog.pages.dev' ||
+    url.hostname.toLowerCase() !== 'null-pointer-blog.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
